@@ -1,8 +1,8 @@
 ---
 name: Custom issue template
 about: Describe this issue template's purpose here.
-title: 'TG_BOT-{IssueNumber}:{IssueDescription}'
-labels: 'feature'
+title: "TG_BOT-{IssueNumber}:{IssueDescription}"
+labels: [feature]
 assignees: ''
 
 ---
