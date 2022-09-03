@@ -23,4 +23,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
+      env:
+        BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+        BOT_NAME: ${{ secrets.BOT_NAME }}
       run: mvn -B package --file pom.xml
